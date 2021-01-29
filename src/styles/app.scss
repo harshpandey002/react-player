@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+h1,
+h2 {
+  color: rgb(53, 53, 53);
+  transition: color 0.5s ease;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h3,
+h4 {
+  user-select: none;
+  font-weight: 400;
+  color: rgb(100, 100, 100);
+  transition: color 0.5s ease;
+}
+
+.App {
+  transition: all 0.5s ease;
+}
+
+.app {
+  height: 100vh;
+  transition: all 0.5s ease;
+}
+
+.library-active {
+  margin-left: 30%;
+}
+
+p,
+svg {
+  transition: color 0.5s ease;
+}
+
+.animate-track {
+  transition: all 0.5s ease;
+}
+
+.dark {
+  background-color: #121212;
+  h1,
+  h2 {
+    color: #d1d1d1;
+    &:hover {
+      color: white;
+    }
+  }
+  h3,
+  h4 {
+    color: #b1b1b1;
+  }
+
+  p,
+  svg {
+    color: #d1d1d1;
+  }
+  .animate-track {
+    background-color: #121212;
+  }
+
+  .library-song {
+    background-color: #0e0e0e;
+    &:hover {
+      background-color: #070707;
+    }
+  }
+  .selected {
+    background-color: #0a0a0a;
+  }
+  .library {
+    background-color: #0e0e0e;
+    box-shadow: none;
+  }
+}
+
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav";
