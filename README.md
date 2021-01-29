@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App].
+This Player application is deployed using Netlify.\
+Click on the link in About section to preview Application.\
+Dark Mode: Click on logo "Wave".
 
 ## Available Scripts
 
@@ -16,7 +18,7 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 
