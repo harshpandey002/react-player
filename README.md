@@ -2,7 +2,7 @@
 
 This Player application is deployed using Netlify.\
 Click on the link in About section to preview Application.\
-Dark Mode: Click on logo "Wave".
+Try to Find Dark Mode.
 
 ## Available Scripts
 
