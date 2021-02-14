@@ -1,10 +1,20 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMusic } from "@fortawesome/free-solid-svg-icons";
+import { faMusic, faLightbulb } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = ({ libraryStatus, setLibraryStatus, darkMode, setDarkMode }) => {
   return (
     <nav>
-      <h1 onClick={() => setDarkMode(!darkMode)}>Waves</h1>
+      <div className="logo">
+        <h1>
+          <span className="mode">
+            <FontAwesomeIcon
+              onClick={() => setDarkMode(!darkMode)}
+              icon={faLightbulb}
+            />
+          </span>
+          Waves
+        </h1>
+      </div>
       <button
         onClick={() => setLibraryStatus(!libraryStatus)}
         className={`${darkMode ? "btn-dark" : ""} `}
