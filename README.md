@@ -2,7 +2,7 @@
 
 This Player application is deployed using Netlify.\
 Click on the link in About section to preview Application.\
-Try to Find Dark Mode.
+Click on the Bulb icon for Dark Mode
 
 ## Available Scripts
 
